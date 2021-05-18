@@ -22,7 +22,7 @@ awk 'FNR>1' $1 | cut -f1,31 | tab2fasta.awk > bit2.fasta
 hybrid-min bit1.fasta bit2.fasta 2>&1 > /dev/null
 Ct2B_GK_3.pl bit1.fasta-bit2.fasta.ct > hybrids.vienna
 
-fasta2tab.awk bit2.fasta | shuf53 | tab2fasta.awk > bit2.shuffled.fasta
+fasta2tab.awk bit2.fasta | shuf23 | tab2fasta.awk > bit2.shuffled.fasta
 hybrid-min bit1.fasta bit2.shuffled.fasta 2>&1 > /dev/null
 Ct2B_GK_3.pl bit1.fasta-bit2.shuffled.fasta.ct > hybrids.shuffled.vienna 
 
