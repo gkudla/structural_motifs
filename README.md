@@ -34,7 +34,7 @@ export PATH="path-to-installation-folder/structural_motifs/bin:$PATH"
 To test the program, copy the example input file from structural_motifs/data into a folder of your choice, then run the commands below. Typical run time on the test data is less than 1 minute 
 
 ```
-structural_motifs JKD_RNaseY_RPMI_JOIN_intermolecular_hybs_filtered.txt
+structural_motifs USA300_RNaseIII_RPMI_JOIN_intermolecular_hybs_filtered.txt
 ```
 
 ## Outputs
